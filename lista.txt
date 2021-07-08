@@ -1,4 +1,10 @@
 manzanas
 bananas
 mandarinas
+
+flan
+carne 
+pescado
+
+
 pan
