@@ -2,11 +2,19 @@ p{
 	color:rgb(8, 8, 58);
 	font-family:Arial;
 	font-size: 16px;
-	
+		
 }
 h1 {background-color: grey;
 					
 }
+img {filter: grayscale(79%);
+	-webkit-filter: grayscale(79%);
+	-moz-filter: grayscale(79%);
+	filter: drop-shadow(13px 10px 5px #5b5656);
+-webkit-filter: drop-shadow(13px 10px 5px #5b5656);
+-moz-filter: drop-shadow(13px 10px 5px #5b5656);
+}
+
 h2{
 	color: black;
 	font-family: Verdana;
@@ -26,8 +34,11 @@ h4 {color: black;
 .destacados{
 	color: rgb(87, 165, 8);
 }
+.destacados2{
+	color: rgb(12, 63, 233);
+}
 .resaltados{
-	background-color: gray;
+	background-color: rgb(58, 121, 214);
 }
 
 ol{
