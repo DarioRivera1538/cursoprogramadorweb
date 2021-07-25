@@ -1,0 +1,42 @@
+p{
+	color:rgb(8, 8, 58);
+	font-family:Arial;
+	font-size: 16px;
+	
+}
+h1 {background-color: grey;
+					
+}
+h2{
+	color: black;
+	font-family: Verdana;
+	font-weight: 200;
+}
+h3{
+	color: black;
+	font-family: verdana;
+	font-weight: 200;
+	}
+h4 {color: black;
+	font-family: verdana;
+	font-weight: 200;
+		
+}
+
+.destacados{
+	color: rgb(87, 165, 8);
+}
+.resaltados{
+	background-color: gray;
+}
+
+ol{
+	color: cadetblue;
+	font-family: arial;
+	font-size: 15px;
+}
+ul{
+	color: cadetblue;
+	font-family: arial;
+	font-size: 15px;
+	}

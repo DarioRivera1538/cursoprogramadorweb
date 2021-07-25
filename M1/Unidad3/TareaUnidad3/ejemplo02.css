@@ -1,0 +1,13 @@
+p{
+    color: blue;
+    line-height: 30px;/*alto de linea*/
+  
+
+}
+h2{
+    text-align: center;/*alineacion*/
+    background-color: yellow;/*color de fondo*/
+    text-transform: uppercase;/*pasaje de minisculas a mayusculas*/
+
+
+}

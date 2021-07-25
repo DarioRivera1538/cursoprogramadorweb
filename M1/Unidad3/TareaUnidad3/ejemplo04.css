@@ -1,0 +1,31 @@
+p{
+    color: blue;
+    line-height: 30px;/*alto de linea*/
+
+}
+h2{
+    text-align: center;/*alineacion*/
+    background-color: yellow;/*color de fondo*/
+    text-transform: uppercase;/*pasaje de minisculas a mayusculas*/
+}
+.destacados{
+    color: green;
+    font-size: 22px;/*temaño de la fuente*/
+    font-weight: bold;/*negrita*/
+
+}
+#caja{
+    width: 300px; 
+    background-color: rgb(192, 187, 187);
+    padding: 20px; /*relleno borde hacia adentro*/
+    box-sizing: border-box;/*controla el ancho de la caja*/
+    margin-left: 150px ;
+    cursor: pointer;
+
+    
+}
+#caja:hover{
+    background-color: orange;
+
+}
+
