@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ejercicio1_Unidad4</title>
+</head>
+
+<body>
+  <script>
+  var distancia;
+  
+  
+  distancia=prompt('Ingrese distancia a recorrer:',''); 
+  if (distancia>=0 && distancia<=1000)
+  document.write('Debes recorrer la distancia a Pie ');
+  else
+  if (distancia>=1001 && distancia<=10000)
+  document.write('Debes recorrer la distancia en Bici');
+  else 
+  if (distancia>=10001 && distancia<=30000)
+  document.write('Debes recorrer la distancia en Colectivo');
+  else
+  if (distancia>=30001 && distancia<=100000)
+  document.write('Debes recorrer la distancia en Auto');
+  else
+  document.write('Debes recorrer la distancia en Avion');    
+  
+  </script>
+</body>
+</html>
