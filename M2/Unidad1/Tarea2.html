@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de caracteres</title>
+</head>
+
+<body>
+    <div id="caja">
+        <script>
+            function contarcaracteres() {
+
+                var total = 120;
+
+                setTimeout(function () {
+                    var valor = document.getElementById('contador');
+                    var respuesta = document.getElementById('res');
+                    var cantidad = valor.value.length;
+                    document.getElementById('res').innerHTML = cantidad + ' caractere/s, te quedan ' + (total - cantidad);
+                    if (cantidad > total) {
+                        respuesta.style.color = "red";
+                    }
+                    else {
+                        respuesta.style.color = "black";
+                    }
+                }, 10);
+
+            }
+        </script>
+
+        <label for="contador">Ingresar Mensaje:</label>
+        <textarea name="contador" id="contador" onpaste="contarcaracteres();" onkeyup="contarcaracteres();"></textarea>
+        <div id="res">0 caractere/s</div>
+
+
+        <style>
+            {
+                font-family: arial;
+                font-size:20px;
+                
+            }
+
+            textarea {
+                padding: 8px;
+                border: 1px solid #ddd;
+                width: 400px;
+                min-height: 100px;
+                background-color: rgba(242, 247, 247, 0.548);
+            }
+
+            label {
+                display: block;
+                font-weight: bold;
+                background-color: rgb(49, 156, 121);
+            }
+            #caja {
+                background-color: rgba(159, 161, 165, 0.993);
+                height: 1500px;
+            }
+            #res {
+                color: rgb(10, 10, 10);
+            }
+        </style>
+    </div>
+</body>
+
+</html>

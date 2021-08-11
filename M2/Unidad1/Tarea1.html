@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color Documento</title>
+    <link rel="stylesheet" href="tarea1.css">
+</head>
+
+<body>
+    <div id="caja">
+        <h1>Cambiar color Documento</h1>
+
+        <button id="rojo">Rojo</button>
+        <button id="azul">Azul</button>
+        <button id="amarillo">Amarillo</button>
+        <button id="verde">Verde</button>
+        <button id="restablecer">Restablecer</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, atque sapiente aperiam natus assumenda
+            asperiores eligendi, nemo debitis hic tenetur numquam pariatur recusandae officia, amet autem et? Ea, cum
+            quod?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta laborum nulla delectus tenetur recusandae,
+            rerum voluptas harum ipsam accusantium excepturi nostrum nam cum odit quisquam voluptatibus fugit quis
+            temporibus inventore.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et non qui autem. Aliquid, sit? Dolores, laborum
+            rerum pariatur ex eligendi esse exercitationem consectetur laboriosam beatae sequi, id, modi cum in.</p>
+
+        <img src="paisaje.jpg" alt="paisaje">
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, sequi ullam tenetur sed inventore laboriosam autem ipsa quibusdam, at a ipsam excepturi veritatis. Quaerat rem quia aut sunt cupiditate facilis!</p>
+
+        
+        <script>
+            var caja = document.getElementById('caja');
+            var rojo = document.getElementById('rojo');
+            var azul = document.getElementById('azul');
+            var amarillo = document.getElementById('amarillo');
+            var verde = document.getElementById('verde');
+            var restablecer = document.getElementById('restablecer');
+
+            rojo.addEventListener('click', function () {
+                caja.style.backgroundColor = 'rgb(194, 6, 6)';
+            });
+
+            azul.addEventListener('click', function () {
+                caja.style.backgroundColor = 'rgb(32, 32, 197)';
+            });
+
+            amarillo.addEventListener('click', function () {
+                caja.style.backgroundColor = 'rgb(214, 214, 16)';
+            });
+
+            verde.addEventListener('click', function () {
+                caja.style.backgroundColor = 'rgb(9, 119, 9)';
+            });
+
+            restablecer.addEventListener('click', function(){
+                caja.style.backgroundColor = 'white';
+            })
+
+        </script>
+
+
+    </div>
+
+
+</body>
+
+</html>
