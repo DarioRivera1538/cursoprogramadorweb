@@ -1,0 +1,38 @@
+#parrafoscontainer {
+    font-family: 'quattrocento', serif;
+    font-size: 20px;
+    color: rgb(7, 97, 97);
+    }
+
+#pcol {
+    font-family: 'quattrocento', serif;
+    font-size: 19px;
+    
+}
+
+.container-fluid{
+    background-color:white;
+}
+
+h1 {
+    font-family: 'quattrocento', serif;
+font-weight: bolder;
+    font-size: 1.4cm;
+    }
+
+h2 {
+     font-family: 'Quattrocento', serif;
+   font-size: 1.1cm;
+    
+}
+
+footer {
+    font-family: 'quattrocento';
+    background-color: gray;
+    text-align: center;
+    font-size: 0.5cm;
+}
+
+.card-text {
+    font-family: 'quattrocento';
+}

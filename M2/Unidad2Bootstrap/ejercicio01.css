@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(13, 153, 153);
+    height: 200px;
+    font-size: 25px;
+    font-weight: 300px;
+    font-style: italic;
+}
+
+.container-sm {background-color: rgb(56, 56, 153);
+height: 200px;
+font-size: 25px;
+font-style: italic;
+
+}
+
+.container-md {font-size: 25px;
+    font-style: italic;
+    background-color: coral;
+    box-sizing: border-box;
+
+}
+
+#parrafoscontainer {
+    color: cornsilk;
+}
+
+#parrafosfuera {
+    font-size: x-large;
+}
+
+.container-xl{
+    background-color: darkgrey;
+    font-size: 25px;
+    font-style: italic;
+}
