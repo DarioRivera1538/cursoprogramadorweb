@@ -1,0 +1,131 @@
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+
+
+footer {
+    background-color: #aaa;
+    text-align: center;
+}
+
+h1,h2 { font-family: 'alfa slab one',cursive;
+
+}
+
+.hero {
+    background: url(../img/headerhd.jpg)no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 900px;
+    color:black;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    
+}
+
+#actividades {
+    font-family: 'alfa slab one',cursive;
+       
+}
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #8f8e8e;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+/*esto hace que cambien de color las letras al pasar por encima con el mouse*/
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #b7cfd6;
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition:all .2s ease-in-out ;
+    margin-right: 1rem;
+    opacity: 0.7;
+
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.team-box-1 {
+    background-color:  #b7cfd6;
+    text-align: center;
+    border-radius: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    padding-top: 1ch;
+    padding-bottom: 0,7ch;
+}
+
+/* aca comienza testimonios */
+.testimonios {
+    background-color: rgb(238, 217, 221);
+    padding-bottom: 4rem !important;
+}
+
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.carrousel-control-prev-icon,
+.carrousel-control-next-icon {
+    background-image: none;
+}
+
+.carrousel-control-prev-icon:after,
+.carrousel-control-next-icon:after {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;    
+}
+
+.carrousel-control-prev-icon:after {
+    content: "\f137";    
+}
+
+.carrousel-control-next-icon::after {
+    content: "\f138";
+}
+
+.carrousel-indicators li {
+    background-color: #000;
+}
+
+.carousel-inner {
+    background-image: url(img/nosotros6.jpg);
+    
+/* aca ctermina testimonios */
+
+/* inicio staff */
+.staff {
+    background: #efefef;
+    padding: 0,5cm;
+}
+
+
+/* termina staff*/
