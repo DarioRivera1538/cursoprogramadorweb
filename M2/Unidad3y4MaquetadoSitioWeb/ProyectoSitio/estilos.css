@@ -13,7 +13,7 @@ h1,h2 { font-family: 'alfa slab one',cursive;
 }
 
 .hero {
-    background: url(../img/headerhd.jpg)no-repeat;
+    background: url(img/headerhd.jpg)no-repeat;
     background-size: cover;
     height: 0.5vh;
     min-height: 900px;
