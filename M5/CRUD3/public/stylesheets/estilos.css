@@ -1,0 +1,110 @@
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+h1,h2,h5,h6 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+.hero {
+    background: url(../images/headerhd.jpg) no-repeat ;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: black;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    
+}
+
+#actividades {
+    font-family: 'alfa slab one',cursive;
+}
+
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #8f8e8e;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+/*esto hace que cambien de color las letras al pasar por encima con el mouse*/
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #b7cfd6;
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition:all .2s ease-in-out ;
+    margin-right: 1rem;
+    opacity: 0.7;
+
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios {
+    background-color: rgb(238, 217, 221);
+    padding-bottom: 4rem !important;
+    
+}
+
+.testimonio {
+    text-align: center;
+    padding: 65px 20px;
+    background-image: url(../images/nosotros6.jpg);
+}
+
+.carrousel-control-prev-icon,
+.carrousel-control-next-icon {
+    background-image: none;
+}
+
+.carrousel-control-prev-icon:after,
+.carrousel-control-next-icon:after {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;    
+}
+
+.carrousel-control-prev-icon:after {
+    content: "\f137";    
+}
+
+.carrousel-control-next-icon::after {
+    content: "\f138";
+}
+
+.carrousel-indicators li {
+    background-color: #000;
+}
+
+
+
+
+
+
